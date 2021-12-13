@@ -13,6 +13,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
+});*/
+
+Auth::routes([
+    'login'    => true,
+    'logout'   => true,
+    'register' => false,
+    'reset'    => false,   // for resetting passwords
+    'confirm'  => false,  // for additional password confirmations
+    'verify'   => false,  // for email verification
+]);
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/', function () {
+        return view('auth.login');
+    });
+
+    Route::get('user/profile', function () {
+        // Uses first & second Middleware
+    });
 });
