@@ -937,15 +937,18 @@ h3 {
 
 /* line 85, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-  background: #009DFF;
-  padding: 12px 26px;
-  font-size: 14px;
-  font-weight: 400;
-  border: 1px solid transparent;
-  color: #fff;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+    background: #009DFF;
+    padding: 6px 26px;
+    font-size: 10px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    left: 40px;
+    top: -15px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

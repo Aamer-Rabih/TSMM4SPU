@@ -22,6 +22,13 @@
                                 <ul>
                                     <li><a href="#"> <i class="fa fa-envelope"></i> info@docmed.com</a></li>
                                     <li><a href="#"> <i class="fa fa-phone"></i> 160160</a></li>
+                                    <li>
+                                        <form id="logout" action="{{ route('logout') }}" method="POST">
+                                            @csrf
+                                            @method('POST')
+                                            <a href="#" onclick="document.getElementById('logout').submit()"><i class="fa fa-sign-out"></i> logout</a>
+                                        </form>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -38,34 +45,34 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-7">
+                        <div class="col-xl-8 col-lg-9">
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="index.html">home</a></li>
-                                        <li><a href="Department.html">Department</a></li>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                        <li><a class="active" href="{{ route('home') }}">home</a></li>
+                                        <li><a href="{{ route('problems') }}">Problems</a></li>
+                                        <li><a href="#">Schedule <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
+                                                <li><a href="{{ route('attendanceSchedule') }}">Attendance Schedule</a></li>
+                                                <li><a href="{{ route('examSchedule') }}">Exam Schedule</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                        <li><a href="#">Buses <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="elements.html">elements</a></li>
-                                                <li><a href="about.html">about</a></li>
+                                                <li><a href="{{ route('transportLines') }}">Transport Lines</a></li>
+                                                <li><a href="{{ route('dailyLines') }}">Daily Lines</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="Doctors.html">Doctors</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="{{ route('tsmmStudentsData') }}">TSMM Students Data</a></li>
+                                        <li><a href="{{ route('remoteMonitoring') }}">Remote Monitoring</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                        <div class="col-xl-1 col-lg-1 d-none d-lg-block">
                             <div class="Appointment">
                                 <div class="book_btn d-none d-lg-block">
-                                    <a class="popup-with-form" href="#test-form">Make an Appointment</a>
+                                    <a class="popup-with-form" href="#test-form">Join</a>
                                 </div>
                             </div>
                         </div>

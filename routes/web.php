@@ -29,13 +29,35 @@ Auth::routes([
 Route::middleware(['auth'])->group(function () {
     Route::get('/', function () {
         return view('pages.home');
-    });
+    })->name('home');
 
-    Route::get('user/profile', function () {
-        // Uses first & second Middleware
-    });
+    Route::get('/problems', function () {
+        return view('pages.problems');
+    })->name('problems');
+
+    Route::get('/attendanceSchedule', function () {
+        return view('pages.attendanceSchedule');
+    })->name('attendanceSchedule');
+
+    Route::get('/examSchedule', function () {
+        return view('pages.examSchedule');
+    })->name('examSchedule');
+
+    Route::get('/transportLines', function () {
+        return view('pages.transportLines');
+    })->name('transportLines');
+
+    Route::get('/dailyLines', function () {
+        return view('pages.dailyLines');
+    })->name('dailyLines');
+
+    Route::get('/tsmmStudentsData', function () {
+        return view('pages.tsmmStudentsData');
+    })->name('tsmmStudentsData');
+
+    Route::get('/remoteMonitoring', function () {
+        return view('pages.remoteMonitoring');
+    })->name('remoteMonitoring');
+
 });
 
-Route::get('/home', function () {
-    return view('pages.home');
-});

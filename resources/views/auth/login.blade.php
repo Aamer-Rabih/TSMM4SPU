@@ -5,7 +5,7 @@
     <div class="col-md-6 col-lg-4">
         <div class="login-wrap p-0">
     <h3 class="mb-4 text-center">Have an account?</h3>
-    <form action="{{ route('login') }}" class="signin-form"method="POST">
+    <form action="{{ route('login') }}" class="signin-form" method="POST">
         @csrf
         @method('POST')
         <div class="dropdown form-group">
