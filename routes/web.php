@@ -28,10 +28,14 @@ Auth::routes([
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/', function () {
-        return view('auth.login');
+        return view('pages.home');
     });
 
     Route::get('user/profile', function () {
         // Uses first & second Middleware
     });
+});
+
+Route::get('/home', function () {
+    return view('pages.home');
 });
