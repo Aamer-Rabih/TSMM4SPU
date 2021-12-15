@@ -939,7 +939,7 @@ h3 {
 .header-area .main-header-area .Appointment .book_btn a {
     background: #009DFF;
     padding: 6px 26px;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
     border: 1px solid transparent;
     color: #fff;
@@ -1064,7 +1064,7 @@ h3 {
   left: 0;
   top: 160%;
   background: #fff;
-  width: 200px;
+  width: 220px;
   z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
   opacity: 0;
@@ -2265,7 +2265,7 @@ h3 {
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 
 @media (max-width: 767px) {
@@ -2281,7 +2281,7 @@ h3 {
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {

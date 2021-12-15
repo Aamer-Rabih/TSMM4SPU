@@ -7,7 +7,7 @@
                             <div class="footer_widget">
                                 <div class="footer_logo">
                                     <a href="#">
-                                        <img src="{{ asset('2/img/footer_logo.png') }}" alt="">
+                                        <img src="{{ asset('2/img/footer_logo.png') }}" alt="" height="50">
                                     </a>
                                 </div>
                                 <p>

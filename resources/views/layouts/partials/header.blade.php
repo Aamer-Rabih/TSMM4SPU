@@ -41,7 +41,7 @@
                         <div class="col-xl-3 col-lg-2">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="{{ asset('2/img/logo.png') }}" alt="">
+                                    <img src="{{ asset('2/img/logo.png') }}" alt="" height="50">
                                 </a>
                             </div>
                         </div>

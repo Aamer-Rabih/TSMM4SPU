@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Login</title>
+  	<title>TSMM4SPU</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Login Page</h2>
+					<h2 class="heading-section"><span style="font-size: 28px;">TSMM4SPU</span> <br> <span style="font-size: 22px; position: relative; bottom: 10px;">Login Page</span></h2>
 				</div>
 			</div>
 
