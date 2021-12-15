@@ -39,14 +39,14 @@
                         <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
                             <div class="footer_widget">
                                 <h3 class="footer_title">
-                                        Departments
+                                        TSMM Data
                                 </h3>
                                 <ul>
-                                    <li><a href="#">Eye Care</a></li>
-                                    <li><a href="#">Skin Care</a></li>
-                                    <li><a href="#">Pathology</a></li>
-                                    <li><a href="#">Medicine</a></li>
-                                    <li><a href="#">Dental</a></li>
+                                    <li><a href="#">Create Account</a></li>
+                                    <li><a href="#">Show All Accounts</a></li>
+                                    <li><a href="#">Lines</a></li>
+                                    <li><a href="#">Problems</a></li>
+                                    <li><a href="#">Exam Schedule</a></li>
                                 </ul>
     
                             </div>
@@ -61,7 +61,7 @@
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#"> Contact</a></li>
-                                    <li><a href="#"> Appointment</a></li>
+                                    <li><a href="#"> Home</a></li>
                                 </ul>
                             </div>
                         </div>
